@@ -6,25 +6,23 @@ make sure to enable https support in your rest api.
 This sample express app, has https enabled already.
 
 ## Download & Build on local
-### 1) Clone the repository, install node packages  and verify routes locally
+### 1) Clone the repository and install node packages
 
 ``` 
-//on local
 git clone https://github.com/zowe/sample-node-api
 cd api
 npm install
 npm run dev
 ```
 
-## database setup
+### 2) database setup
 Mohammdia Print Web Service is using relational database, you can import the database with phpmyadmin to your local server. you will find database file in db folder.
 
-## Test API
-
+### 3) verify routes locally
 Open your local browser and verify the Mohammadia Print Web Service API is working by accessing:     
-`http://localhost:18000/accounts/`   
-`http://localhost:18000/accounts/1`   
-`http://localhost:18000/accounts/1/cars/`  
+`http://localhost:5000/create-order/`   
+`http://localhost:5000/create-option/`   
+`http://localhost:5000/deliver-order/`  
 
 * Some URLs may not be working as expected that it requires a live server, as the email service.
 
